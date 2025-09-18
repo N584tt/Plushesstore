@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SANTStore</title>
+  <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container">
+      <button class="phone"><span1>Call Us: +7 747 777 1199</span1></button>
+      <button class="email"><span2>Email: santsplushstore@gmail.com</span2></button>
+      <div class="social">
+        <a href="#"></a>
+        <a href="#"></a>
+        
+      </div>
+    </div>
+  </div>
+
+
+  <header>
+    <div class="container nav">
+      <div class="logo">SANT Store</div>
+
+      <button class="cart">
+        <span>Cart</span>
+        <span class="cart-icon">🛒</span>
+        <span class="cart-count">0</span>
+      </button>
+    </div>
+  </header>
+
+
+
+
+
+  <section class="main-button">
+    <div class="maintxt">
+      <p class="small">Welcome to our store </p>
+       <h1 class="small-txt">Plushes toys<br> From all games</h1>
+      <button>Open Catalog</button>
+    </div>
+
+
+   
+
+
+  </section>
+
+ <!--Сортировка очень хрупкая ничего не меняй в css  -->
+  <div class="sort-block">
+  <div class="page-info">Page 1 of 3</div>
+
+  <div class="sort-right">
+    <label for="sort">Sort by:</label>
+    <select id="sort">
+      <option value="popular">Popularity</option>
+      <option value="price-asc">Price Ascending</option>
+      <option value="price-desc">Price Descending</option>
+      <option value="new">New Arrivals<A></A></option>
+      <option value="ABC">Name: A-Z<A></A></option>
+      <option value="CBA">Name: Z-A<A></A></option>
+      
+    </select>
+  </div>
+</div>
+
+<div class="shop-container">
+  <!--фильтры по левой стороне -->
+  <aside class="sidebar">
+    <h3 class="filter-title">PLUSHES & FIGURINES</h3>
+    <ul>
+      <li><label><input type="checkbox"> All Plushes <br>&  Figures <br></label></li>
+      <li><label><input type="checkbox"> Plushes</label></li>
+      <li><label><input type="checkbox"> Figures</label></li>
+    </ul>
+
+    <h3>GAME</h3>
+    <ul>
+      <li><label><input type="checkbox"> A Short Hike (1)</label></li>
+      <li><label><input type="checkbox"> Ace Attorney (2)</label></li>
+      <li><label><input type="checkbox">ASTRO BOT(1) </label></li>
+      <li><label><input type="checkbox"> Astro Bot(1)</label></li>
+      <li><label><input type="checkbox"> Baba Is You (1)</label></li>
+      <li><label><input type="checkbox"> Banjo-Kazooie (2) </label></li>
+      <li><label><input type="checkbox"> BloodBorne (1) </label></li>
+      <li><label><input type="checkbox"> Brotato (1) </label></li>
+      <li><label><input type="checkbox"> Bugsnax (5) </label></li>
+      <li><label><input type="checkbox"> Celeste (1) </label></li>
+      <li><label><input type="checkbox"> Conker (1) </label></li>
+      <li><label><input type="checkbox"> Dark Souls (1) </label></li>
+      <li><label><input type="checkbox"> ENA (3) </label></li>
+      <li><label><input type="checkbox"> Elden Ring (1) </label></li>
+      <li><label><input type="checkbox"> God Of War (1) </label></li>
+      <li><label><input type="checkbox"> Hades (3) </label></li>
+      <li><label><input type="checkbox"> Hollow Knight (14) </label></li>
+      <li><label><input type="checkbox"> IB (3) </label></li>
+      <li><label><input type="checkbox"> Metal Gear Solid (2) </label></li>
+      <li><label><input type="checkbox"> MOUTHWASHING (2) </label></li>
+      <li><label><input type="checkbox"> Nine Sols (1) </label></li>
+      <li><label><input type="checkbox"> Oneshot (2) </label></li>
+     <li><label><input type="checkbox"> Ooblets (3) </label></li>
+      <li><label><input type="checkbox"> Pizza Tower (8) </label></li>
+      <li><label><input type="checkbox"> Shovel Knight (1) </label></li>
+      <li><label><input type="checkbox"> Silent Hill (1) </label></li>
+      <li><label><input type="checkbox"> Stardew Valley (3) </label></li>
+      <li><label><input type="checkbox"> Stray (1) </label></li>
+      <li><label><input type="checkbox"> TUNIC (1) </label></li>
+      <li><label><input type="checkbox"> Undertale (9) </label></li>
+
+      
+    </ul>
+  </aside>
+
+  <!-- сетка товаров потправой стороне -->
+<main class="products">
+  <div class="product">
+    <img src="./plushes/A Short Hikemain.png" alt="A Short Hike Plush">
+    <div class="product-name">A Short Hike Plush</div>
+    <div class="product-category">A Short Hike</div>
+    <div class="product-price">$32</div>
+  </div>
+
+  <div class="product">
+    <img src="./plushes/ace attornei 1main.png" alt="Phoenix Wright Plush">
+    <div class="product-name">Phoenix Wright Plush</div>
+    <div class="product-category">Ace Attorney</div>
+    <div class="product-price">$28</div>
+  </div>
+
+  <div class="product">
+    <img src="./plushes/ace attornei 2main.png" alt="Miles Edgeworth Plush">
+    <div class="product-name">Miles Edgeworth Plush</div>
+    <div class="product-category">Ace Attorney</div>
+    <div class="product-price">$30</div>
+  </div>
+
+<div class="product">
+    <img src="./plushes/ASTROBOT main.png" alt="Astro Kratos Bot Plush">
+    <div class="product-name">Astro Kratos Bot Plush</div>
+    <div class="product-category">ASTRO BOT</div>
+    <div class="product-price">$39</div>
+  </div>
+<div class="product">
+    <img src="./plushes/astro bot main.png" alt="Astro Plush">
+    <div class="product-name">AStro Plush</div>
+    <div class="product-category">Astro Bot</div>
+    <div class="product-price">$36</div>
+  </div>
+
+  <div class="product">
+    <img src="./plushes/Baba is you main.png" alt="Baba is you">
+    <div class="product-name">Baba Is Plush</div>
+    <div class="product-category">Baba Is You</div>
+    <div class="product-price">$26</div>
+  </div>
+
+<div class="product">
+    <img src="./plushes/Banjo kazooie 1 main.png" alt="Babnjo Kazooie Plush">
+    <div class="product-name">Banjo-Kazooie Plush Set</div>
+    <div class="product-category">Banjo-Kazooie</div>
+    <div class="product-price">$39</div>
+  </div>
+<div class="product">
+    <img src="./plushes/banjo kazooie 2 main.png" alt="Banjo-Kazooie Plush">
+    <div class="product-name">Mumbo-Jumbo Plush</div>
+    <div class="product-category">Banjo-Kazooie</div>
+    <div class="product-price">$22</div>
+  </div>
+<div class="product">
+    <img src="./plushes/BloodBorne main.png" alt="BloodBorne">
+    <div class="product-name">Plain Doll Plush</div>
+    <div class="product-category">BloodBorne</div>
+    <div class="product-price">$36</div>
+  </div>
+<div class="product">
+    <img src="./plushes/brotato main.png" alt="Brotato">
+    <div class="product-name">Brotato Plush</div>
+    <div class="product-category">Brotato</div>
+    <div class="product-price">$24</div>
+  </div>
+<div class="product">
+    <img src="./plushes/Bugsnax 1 main.png" alt=" Bugsnax">
+    <div class="product-name">Strabby Plush</div>
+    <div class="product-category">Bugsnax</div>
+    <div class="product-price">$32</div>
+  </div>
+<div class="product">
+    <img src="./plushes/Bugsnax 2 main.png " alt="Bugsnax">
+    <div class="product-name">Bunger Plush</div>
+    <div class="product-category">Bugsnax</div>
+    <div class="product-price">$39</div>
+  </div>
+<div class="product">
+    <img src="./plushes/Bugsnax 3 main.png" alt="Bugsnax">
+    <div class="product-name">Filto Fiddlepie Plus</div>
+    <div class="product-category">Bugsnax</div>
+    <div class="product-price">$36</div>
+  </div>
+<div class="product">
+    <img src="./plushes/Bugsnax 4 main.png" alt="Bugsnax">
+    <div class="product-name">Cinnasnail Plush</div>
+    <div class="product-category">Bugsnax</div>
+    <div class="product-price">$36</div>
+  </div>
+<div class="product">
+    <img src="./plushes/Bugsbax 5 main.png" alt="Bugsnax">
+    <div class="product-name">Kweeble</div>
+    <div class="product-category">Bugsnax</div>
+    <div class="product-price">$36</div>
+  </div>
+<div class="product">
+    <img src="./plushes/Celeste main.png" alt="Celeste">
+    <div class="product-name">Madeline and Badeline Plush Set</div>
+    <div class="product-category">Celeste</div>
+    <div class="product-price">$39</div>
+  </div>
+<div class="product">
+    <img src="./plushes/Conker main.png" alt="Conker">
+    <div class="product-name">Conker Talking Plush</div>
+    <div class="product-category">Conker</div>
+    <div class="product-price">$36</div>
+  </div>
+<div class="product">
+    <img src="./plushes/Dark Souls main.png" alt="Dark Souls">
+    <div class="product-name">Siegmeyer Plush</div>
+    <div class="product-category">Dark Souls</div>
+    <div class="product-price">$36</div>
+  </div>
+
+
+
+ <div class="pagination-wrapper">
+  <p class="pagination-info">Showing 1–18 of 76</p>
+  <div class="pagination">
+    <button class="prev">Previous</button>
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <span class="dots">...</span>
+    <button class="next">Next</button>
+  </div>
+</div>
+  </div>
+
+
+</main>
+
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>ABOUT SANT STORE</h3>
+      <p>
+        This is a study project created to practice web development skills
+        and to get a good grade.
+      </p>
+      <button class="footer-btn">ABOUT US</button>
+    </div>
+
+    <div class="footer-section">
+      <h3>HELP</h3>
+      <p>
+        Need help with returns, exchanges, or other issues?  
+        Check our <a href="#">FAQ</a> for answers to common questions.
+      </p>
+      <button class="footer-btn">SUPPORT / FAQ</button>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>Copyright © 2025 SANT Store</p>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Accessibility</a>
+      <a href="#">Do not sell or share my personal information</a>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+</body>
+</html>

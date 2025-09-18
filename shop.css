@@ -1,0 +1,462 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  color: #333;
+}
+
+.topbar {
+  background: #168596;
+  color: white;
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+.topbar .container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar .social a {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+
+header {
+  background: #f4f4f4;
+ box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  
+}
+
+.nav {
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: -60px;
+}
+
+.email{
+  cursor: pointer;;
+  background: none; 
+  font-family: 'Montserrat';
+   font: inherit;         
+  color: inherit; 
+  background: none; 
+  border: none;
+
+}
+
+.phone{
+  cursor: pointer;
+  background: none; 
+  font-family: 'Montserrat';
+   font: inherit;         
+  color: inherit; 
+  background: none; 
+  border: none;
+  margin-left: -60px;
+
+}
+
+.logo{ 
+  cursor: default;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: none;      
+  border: none;         
+  padding: 0;            
+  margin: 0;             
+  cursor: pointer;       
+  font: inherit;         
+  color: inherit; 
+  font-family: 'Montserrat';
+  
+}
+
+.cart:focus {
+  outline: 2px solid #168596;
+  border-radius: 4px;
+  transition: outline 0.3s ease-in-out;
+}
+
+.cart-count {
+  background: #8dc63f;
+  color: white;
+  font-size: 14px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  
+}
+
+
+.main-button {
+  position: relative;
+  text-align: center;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+background: url("./assets/backfround-cut.jpeg") no-repeat center center;
+  background-size: cover;
+
+
+}
+
+
+
+.maintxt {
+  background: rgb(255, 255, 255, 0.8);
+
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: inline-block;
+  z-index: 2;
+  font-family: 'Nunito';
+}
+
+.maintxt .small {
+  color: #0978ff;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: 'Nunito';
+  cursor: default;
+  
+  
+ }
+
+.maintxt h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-family: 'Nunito';
+  cursor: default;
+}
+
+.maintxt button {
+  background: #1ccce7;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Nunito';
+}
+
+.maintxt button:hover {
+  background: #168596;
+}
+
+.sort-block {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+  height: 60px;               
+  background: #168596;
+  padding: 0 75px;            
+  margin: 0;                  
+  border-radius: 0;           
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.page-info {
+  color: white;               
+  font-size: 16px;
+  font-family: 'Nunito';
+  cursor: default;
+}
+
+.sort-right {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+  font-family: 'Nunito';
+  cursor: pointer;
+}
+
+.sort-right label {
+  color: white;               
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sort-right select {
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  color: #168596;   
+  font-family: 'Nunito';   
+  cursor: pointer;       
+}
+
+.shop-container {
+  display: flex;
+  gap: 40px; /* гап между списокм и сеткой */
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.filter-title{
+  cursor: default;
+}
+
+.sidebar {
+  width: 250px;
+}
+
+.sidebar h3 {
+  font-weight: bold;
+  margin: 20px 0 10px;
+  font-family: 'Nunito';
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  font-family: 'Nunito';
+  margin: 0;
+}
+
+.sidebar li {
+  margin: 8px 0;
+}
+
+.sidebar label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Nunito';
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 товара в ряд */
+  gap: 20px;
+  justify-items: center; /* картинки по центру */
+
+}
+
+.product {
+  background: #f5f5f5;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.sidebar input[type="checkbox"] {
+  appearance: none; /* стандарта нет */
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+
+  width: 18px;
+  height: 18px;
+  border: 2px solid #168596; /* рамка  */
+  border-radius: 4px; /* скругление */
+  background: white;
+  cursor: pointer;
+  position: relative;
+}
+
+
+
+.sidebar input[type="checkbox"]:checked {
+  background: #4caf50; /* зеленый фон */
+  border-color: #4caf50;
+}
+
+.sidebar input[type="checkbox"]:checked::after {
+  content: "✔";              /* символ галочки */
+  color: black;              /* blackгалочка */
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+
+.sidebar input[type="checkbox"]:hover {
+  border-color: #333; 
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.product-name {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+/* категория */
+.product-category {
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+/* цена */
+.product-price {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #8dc63f; /* акцент зеленый */
+}
+
+.pagination-wrapper {
+  grid-column: 1 / -1; 
+  text-align: center;
+  margin-top: 30px;
+}
+
+.pagination-info {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555; 
+}
+
+.pagination {
+  display: inline-flex; 
+  gap: 8px;
+  align-items: center;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  border: none;
+  background: #8dc63f; 
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.pagination button:hover {
+  background: #4d7711; 
+}
+
+.dots {
+  color: #999;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+
+.site-footer {
+  background: #168596; /* тёмно-синий, подходит к твоему цветокору */
+  color: white;
+  padding: 60px 20px 30px;
+  margin-top: 100px; /* отступ сверху (между пагинацией и футером) */
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 40px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 300px;
+  margin: 0 auto 20px;
+}
+
+.footer-btn {
+  background:white;
+  color: #168596;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.footer-btn:hover {
+  background: #ddd;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  font-size: 13px;
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
