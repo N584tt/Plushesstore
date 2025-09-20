@@ -212,7 +212,7 @@ background: url("./assets/backfround-cut.jpeg") no-repeat center center;
 .sort-right label {
   color: white;               
   font-size: 16px;
-  cursor: pointer;
+  cursor: default;
 }
 
 .sort-right select {
@@ -336,6 +336,7 @@ background: url("./assets/backfround-cut.jpeg") no-repeat center center;
   font-weight: 600;
   color: #222;
   margin-bottom: 5px;
+  cursor: pointer;
 }
 
 /* категория */
@@ -344,6 +345,7 @@ background: url("./assets/backfround-cut.jpeg") no-repeat center center;
   font-size: 14px;
   color: #666;
   margin-bottom: 8px;
+  cursor: pointer;
 }
 
 /* цена */
@@ -352,6 +354,7 @@ background: url("./assets/backfround-cut.jpeg") no-repeat center center;
   font-size: 16px;
   font-weight: bold;
   color: #8dc63f; /* акцент зеленый */
+  cursor: pointer;
 }
 
 .pagination-wrapper {
@@ -364,6 +367,7 @@ background: url("./assets/backfround-cut.jpeg") no-repeat center center;
   margin-bottom: 10px;
   font-size: 14px;
   color: #555; 
+  cursor: default;
 }
 
 .pagination {
@@ -394,10 +398,10 @@ background: url("./assets/backfround-cut.jpeg") no-repeat center center;
 
 
 .site-footer {
-  background: #168596; /* тёмно-синий, подходит к твоему цветокору */
+  background: #168596; 
   color: white;
   padding: 60px 20px 30px;
-  margin-top: 100px; /* отступ сверху (между пагинацией и футером) */
+  margin-top: 100px; /* отступ сверху */
 }
 
 .footer-container {
@@ -443,6 +447,23 @@ background: url("./assets/backfround-cut.jpeg") no-repeat center center;
   border-top: 1px solid rgba(255,255,255,0.2);
   padding-top: 20px;
   text-align: center;
+  cursor: default;
+}
+
+.text-about{
+  cursor: default;
+}
+
+.text-about1{
+  cursor: default;
+}
+
+.help-text{
+   cursor: default;
+}
+
+.help-text1{
+  cursor: default;
 }
 
 .footer-bottom p {
